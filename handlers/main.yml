@@ -1,0 +1,6 @@
+---
+- name: Install wtd-bash-prompt
+  shell: "cp {{ wtd_deploy_directory }}/bash-prompt/dist/wtd-bash-prompt.sh /etc/profile.d/"
+
+- name: Install wtd-bash-behaviour
+  shell: "cp {{ wtd_deploy_directory }}/bash-behaviour/dist/wtd-bash-behaviour.sh /etc/profile.d/"

@@ -1,0 +1,9 @@
+---
+bash_install_git: 'false'
+
+wtd_deploy_directory: '~/.while-true-do'
+
+# https://github.com/while-true-do/bash-prompt
+bash_wtd_bash_prompt: 'true'
+# https://github.com/while-true-do/bash-behaviour
+bash_wtd_bash_behaviour: 'true'

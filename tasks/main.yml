@@ -1,0 +1,36 @@
+---
+# FIXME: Remove git task and require a role for git
+- name: Install git
+  package:
+    name: git
+    state: present
+  when: bash_install_git == 'true'
+  tags:
+    - git
+
+- name: Make deploy directory for while true do
+  file:
+    path: "{{ wtd_deploy_directory }}"
+    state: directory
+
+- name: Checkout while-true-do/bash-prompt
+  git:
+    repo: git://github.com/while-true-do/bash-prompt.git
+    dest: "{{ wtd_deploy_directory }}/bash-prompt"
+  when: bash_wtd_bash_prompt == 'true'
+  notify: Install wtd-bash-prompt
+  tags:
+    - bash
+    - customization
+    - while-true-do
+
+- name: Checkout while-true-do/bash-behaviour
+  git:
+    repo: git://github.com/while-true-do/bash-behaviour.git
+    dest: "{{ wtd_deploy_directory }}/bash-behaviour"
+  when: bash_wtd_bash_behaviour == 'true'
+  notify: Install wtd-bash-behaviour
+  tags:
+    - bash
+    - customization
+    - while-true-do
