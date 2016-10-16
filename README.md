@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/while-true-do/ansible-role-wtd-bash.svg?branch=master)](https://travis-ci.org/while-true-do/ansible-role-wtd-bash)
+
 # Ansible Role: wtd-bash
 | A role to deploy the bash customizations from wtd - [Prompt](https://github.com/while-true-do/bash-prompt) and [Behaviour](https://github.com/while-true-do/bash-behaviour).
 
