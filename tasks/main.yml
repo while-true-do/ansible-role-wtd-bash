@@ -8,11 +8,6 @@
   tags:
     - git
 
-- name: Remove old directory
-  file:
-    path: "{{ wtd_deploy_directory }}"
-    state: absent
-
 - name: Make deploy directory for while true do
   file:
     path: "{{ wtd_deploy_directory }}"
