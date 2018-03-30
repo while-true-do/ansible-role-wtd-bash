@@ -9,6 +9,7 @@
     repo: https://github.com/while-true-do/bash-prompt.git
     dest: "{{ wtd_deploy_directory }}/bash-prompt"
     update: yes
+    version: "HEAD"
   when: bash_wtd_bash_prompt == 'true'
   notify: Install wtd-bash-prompt
   tags:
@@ -21,6 +22,7 @@
     repo: https://github.com/while-true-do/bash-behaviour.git
     dest: "{{ wtd_deploy_directory }}/bash-behaviour"
     update: yes
+    version: "HEAD"
   when: bash_wtd_bash_behaviour == 'true'
   notify: Install wtd-bash-behaviour
   tags:
