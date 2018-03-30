@@ -83,6 +83,6 @@ This work is licensed under a [BSD License](https://opensource.org/licenses/BSD-
 
 ## Author Information
 
-Blog: [while-true-do.org](https://while-true-do.org)
+Site: [while-true-do.org](https://while-true-do.org)
 
 Mail: [hello@while-true-do.org](mailto:hello@while-true-do.org)
