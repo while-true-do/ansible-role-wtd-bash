@@ -1,4 +1,4 @@
 ---
 # from galaxy
-- src: while-true-do.git
-- src: while-true-do.bash
+- src: while_true_do.git
+- src: while_true_do.bash

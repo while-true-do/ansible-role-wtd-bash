@@ -24,7 +24,7 @@ install:
   - ansible --version
 
   # Link github repo to ansible-galaxy name
-  - ln -s  $PWD ../while-true-do.wtd-bash
+  - ln -s  $PWD ../while_true_do.wtd-bash
 
 # Run the tests
 script:
