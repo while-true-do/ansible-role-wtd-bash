@@ -3,6 +3,7 @@ dependencies:
   - { role: while_true_do.bash }
 
 galaxy_info:
+  role_name: wtd_bash
   author: while-true-do.org
   description: A very simple role to deploy some bash packages.
   company: while-true-do.org
