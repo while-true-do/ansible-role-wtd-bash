@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/while-true-do/ansible-role-wtd-bash.svg?branch=master)](https://travis-ci.org/while-true-do/ansible-role-wtd-bash)
 
 # Ansible Role: wtd-bash
-| A role to deploy the bash customizations from wtd 
+| A role to deploy the bash customizations from wtd
 
 The following customizations will be deployed:
 
