@@ -14,16 +14,16 @@ Deploying customizations for bash is a regular task. To have the same look and f
 
 ## Installation
 
-Install from [Ansible Galaxy](https://galaxy.ansible.com/while_true_do/wtd-bash)
+Install from [Ansible Galaxy](https://galaxy.ansible.com/while_true_do/wtd_bash)
 
 ```
-ansible-galaxy install while_true_do.wtd-bash
+ansible-galaxy install while_true_do.wtd_bash
 ```
 
 Install from [Github](https://github.com/while-true-do/ansible-role-wtd-bash)
 
 ```
-git clone https://github.com/while-true-do/ansible-role-wtd-bash.git while_true_do.wtd-bash
+git clone https://github.com/while-true-do/ansible-role-wtd-bash.git while_true_do.wtd_bash
 ```
 
 ## Requirements
@@ -61,7 +61,7 @@ Simple Example:
 ```yaml
 - hosts: servers
   roles:
-    - { role: while_true_do.wtd-bash }
+    - { role: while_true_do.wtd_bash }
 ```
 ## Testing
 
