@@ -1,13 +1,13 @@
 dependencies:
-  - { role: while-true-do.git }
-  - { role: while-true-do.bash }
+  - { role: while_true_do.git }
+  - { role: while_true_do.bash }
 
 galaxy_info:
+  role_name: wtd_bash
   author: while-true-do.org
   description: A very simple role to deploy some bash packages.
   company: while-true-do.org
 
-  issue_tracker_url: https://github.com/while-true-do/ansible-role-wtd-bash/issues
   github_branch: master
   license: BSD
 
